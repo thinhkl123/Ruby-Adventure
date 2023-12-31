@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="NPCDialogue" src="project://database/Assets/NPCDialogue.uxml?fileID=9197481963319205126&amp;guid=5677f7c08daaffb40bc586944b1602f4&amp;type=3#NPCDialogue" />
+    <ui:Template name="NPCDialogue 1" src="project://database/Assets/NPCDialogue%201.uxml?fileID=9197481963319205126&amp;guid=b80d462f1844e5e4b919efdb6eb2b59b&amp;type=3#NPCDialogue 1" />
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Ruby/UI/UIHealthFrame.png?fileID=2800000&amp;guid=e04807cd45105ec409b00463fe6ab7b1&amp;type=3#UIHealthFrame&apos;); -unity-background-scale-mode: scale-to-fit; width: 337px; height: 156px; flex-direction: column; align-items: flex-start; position: relative; top: 35px; left: 38px;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 208px; height: 53px; -unity-background-scale-mode: scale-to-fit;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Ruby/UI/UIHealthBar.png?fileID=2800000&amp;guid=be3322f3a1dbc6e44b25b63f3bb91e16&amp;type=3#UIHealthBar&apos;); width: 100%; height: 100%; position: absolute; top: 47px; left: 119px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Ruby/UI/CharacterPortrait.png?fileID=2800000&amp;guid=374193bc7008fa34ab9b2bbca376937b&amp;type=3#CharacterPortrait&apos;); -unity-background-scale-mode: scale-to-fit; position: absolute; width: 158px; height: 168px; top: -27px; left: 16px;" />
+    </ui:VisualElement>
+    <ui:Instance template="NPCDialogue" name="NPCDialogue" style="position: absolute; bottom: 5%; left: 10%; right: 10%; top: auto;" />
+    <ui:Instance template="NPCDialogue 1" name="NPCDialogue 1" style="left: 10%; right: 10%; bottom: 5%; position: absolute;" />
+</ui:UXML>
